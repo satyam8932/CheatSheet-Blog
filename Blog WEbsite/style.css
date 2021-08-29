@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 1000px;
+  opacity: 10;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    padding: 25px 0px 25px 0px;
+    background-color: rgb(40 44 45)
+}
+
+.aboutinfo {
+  padding: 60px 20px;
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+}
+
+span{
+    color: red;
+}
+
+img{
+    height: 100px;
+    /* margin-right: 45rem; */
+    position: absolute;
+    right: px;
+    left: 3px;
+    top: 3px;
+}
+
+.heading2{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    background-color: rgba(85, 70, 70, 0.473);
+}
+
+.heading2:hover{
+    color: rgb(121, 121, 73);
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: rgba(82, 104, 145, 0.479);
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 12px;
+    transition: width .35s ease-in-out;
+    /* box-shadow: gray; */
+}
+
+.box:hover{
+    background-color: rgba(78, 72, 72, 0.445);
+    transition-property: background-color;
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+}
+
+.logoset{
+    height: 135px;
+    width: 130px;
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+    margin: 10px 56px;
+}
+
+.htmlpage{
+    color: white;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    margin-left: 80px;
+}
+
+.htmlpage:hover{
+    color: rgb(11, 14, 172);
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(231, 247, 10));
+    border-radius: 12px;
+    transition-property: background-color;
+    /* transform: scale(1.1); */
+    transition: all 400ms ease-in-out;
+}
